@@ -23,7 +23,7 @@ public enum TechToolClasses implements IItemTier{
 
         return Ingredient.fromItems(itemdirec.copper_sword); }),
     
-    LEAD(1, 170, 2.0F, 5.0f, 5, () -> {
+    LEAD(1, 250, 2.0F, 5.0f, 5, () -> {
 
         return Ingredient.fromItems(itemdirec.lead_sword); }),
     
