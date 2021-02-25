@@ -63,11 +63,7 @@ public class itemdirec {
 	public static Item steel_chestplate;
 	public static Item steel_leggings;
 	public static Item steel_boots;
-	
-	
-	
-	
-	
+
 	static {
 		// Steel Items
 		ITEMS.register("steel_pickaxe", () -> steel_pickaxe = new PickaxeItem(TechToolClasses.STEEL, -2, -3.0F,
